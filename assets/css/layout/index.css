@@ -17,6 +17,7 @@
 }
 @media (max-width: 575.98px) {
   .top-bar {
+    justify-content: space-between;
     padding: 16px 0;
   }
 }
@@ -58,6 +59,11 @@
 .top-act {
   gap: 20px;
   margin-left: auto;
+}
+@media (max-width: 575.98px) {
+  .top-act {
+    margin-left: 0;
+  }
 }
 .top-act__group {
   min-width: 50px;
