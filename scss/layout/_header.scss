@@ -1,10 +1,14 @@
-header {
+%flexItemsCenter {
+    display: flex;
+    align-items: center;
+}
+
+.header {
     background: #eee;
 }
 
 .top-bar {
-    display: flex;
-    align-items: center;
+    @extend %flexItemsCenter;
     padding: 30px 0;
 }
 
@@ -13,16 +17,13 @@ header {
     margin-right: auto;
 
     &__list {
-        display: flex;
-        align-items: center;
+        @extend %flexItemsCenter;
         gap: 30px;
     }
 
     &__link {
-        display: flex;
-        align-items: center;
+        @extend %flexItemsCenter;
         gap: 6px;
-        color: #1a162e;
         font-size: 1.5rem;
         font-weight: 500;
         line-height: 1.47;
@@ -34,13 +35,11 @@ header {
 }
 
 .top-act {
-    display: flex;
-    align-items: center;
+    @extend %flexItemsCenter;
     gap: 20px;
 
     &__group {
-        display: flex;
-        align-items: center;
+        @extend %flexItemsCenter;
         min-width: 50px;
         height: 50px;
         border-radius: 8px;
@@ -53,14 +52,13 @@ header {
     }
 
     &__btn {
-        display: flex;
-        align-items: center;
+        @extend %flexItemsCenter;
         gap: 10px;
         padding: 13px 20px;
+        cursor: pointer;
     }
 
     &__title {
-        color: #1a162e;
         font-size: 1.5rem;
         font-weight: 500;
         line-height: 1.47;
@@ -77,5 +75,6 @@ header {
         width: 50px;
         height: 50px;
         border-radius: 8px;
+        cursor: pointer;
     }
 }
