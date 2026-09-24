@@ -81,15 +81,14 @@
   .navbar__list {
     flex-direction: column;
     align-items: flex-start;
+    overflow-y: auto;
+    height: calc(100% - 26px);
   }
 }
 .navbar__item:hover .dropdown {
   display: block;
 }
 @media (max-width: 991.98px) {
-  .navbar__item:hover .dropdown {
-    display: none;
-  }
   .navbar__item {
     width: 100%;
   }
