@@ -1,52 +1,19 @@
-html.dark {
-  --text-color: #fff;
-  --icon-filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(20%) hue-rotate(138deg) brightness(106%)
-      contrast(105%);
-  --body-bg: #292e39;
-  --header-bg-color: #171c28;
-  --top-act-group-bg-color: #292e39;
-  --top-act-group-shadow: rgba(0, 0, 0, 0.2);
-  --top-act-group-separate: #ededf6;
-}
-@media (max-width: 991.98px) {
-  html.dark {
-    --header-shadow-color: rgba(0, 0, 0, 0.2);
-  }
-}
-html.dark {
-  --dropdown-bg-color: #2f3441;
-  --dropdown-shadow-color: rgba(23, 28, 40, 0.4);
-  --dropdown-arrow-color: brightness(0) saturate(100%) invert(16%) sepia(17%) saturate(740%) hue-rotate(186deg)
-      brightness(100%) contrast(89%);
-  --top-menu-border-color: #171c28;
-  --menu-column-icon-color: brightness(0) saturate(100%) invert(96%) sepia(5%) saturate(633%) hue-rotate(196deg)
-      brightness(102%) contrast(96%);
-  --sidebar-bg: #292e39;
-  --sidebar-shadow: rgba(23, 28, 40, 0.4);
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 14 | /     @include abstracts.screen(lg) {
+ * 15 | |         --header-shadow-color: rgba(0, 0, 0, 0.2);
+ * 16 | \     }
+ *    '
+ *   scss\theme\_dark.scss 14:5  @forward
+ *   scss\theme\index.scss 1:1   root stylesheet */
 
-html {
-  --text-color: #1a162e;
-  --icon-filter: brightness(0) saturate(100%) invert(5%) sepia(43%) saturate(2403%) hue-rotate(230deg) brightness(96%)
-      contrast(92%);
-  --body-bg: #f6f6f6;
-  --header-bg-color: #eee;
-  --top-act-group-bg-color: #fff;
-  --top-act-group-shadow: rgba(237, 237, 246, 0.2);
-  --top-act-group-separate: #ededf6;
+body::before {
+    font-family:
+        "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+    white-space: pre;
+    display: block;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid black;
+    content: "Error: Undefined mixin.\a    \2577 \a 14 \2502  \250c      @include abstracts.screen(lg) {\a 15 \2502  \2502          --header-shadow-color: rgba(0, 0, 0, 0.2);\a 16 \2502  \2514      }\a    \2575 \a   scss\\theme\\_dark.scss 14:5  @forward\a   scss\\theme\\index.scss 1:1   root stylesheet";
 }
-@media (max-width: 991.98px) {
-  html {
-    --header-bg-color: #fff;
-    --header-shadow-color: rgba(237, 237, 246, 0.2);
-  }
-}
-html {
-  --dropdown-bg-color: #fff;
-  --dropdown-shadow-color: rgba(200, 200, 200, 0.4);
-  --top-menu-border-color: #d2d1d6;
-  --sidebar-bg: #fff;
-  --sidebar-shadow: rgba(200, 200, 200, 0.4);
-}
-
-/*# sourceMappingURL=index.css.map */
