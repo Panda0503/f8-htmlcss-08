@@ -26,6 +26,10 @@ html.dark {
   --cate-item-bg: #171c28;
   --cate-item-thumb-bg: #292e39;
   --cate-item-title-color: #fff;
+  --filter-btn-color: #fff;
+  --filter-btn-bg: #171c28;
+  --product-card-bg: #171c28;
+  --product-card-shadow: rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -58,6 +62,13 @@ html {
   html {
     --cate-item-bg: #fff;
   }
+}
+html {
+  --filter-btn-color: #6c6c72;
+  --filter-btn-bg: #fff;
+  --like-btn-shadow: rgba(124, 124, 124, 0.2);
+  --product-card-bg: #fff;
+  --product-card-shadow: rgba(237, 237, 246, 0.2);
 }
 
 /*# sourceMappingURL=index.css.map */
