@@ -30,6 +30,10 @@ html.dark {
   --filter-btn-bg: #171c28;
   --product-card-bg: #171c28;
   --product-card-shadow: rgba(0, 0, 0, 0.2);
+  --filter-form-bg: var(--dropdown-bg-color);
+  --filter-form-shadow: rgba(0, 0, 0, 0.4);
+  --filter-form-tag-bg: #171c28;
+  --filter-form-arrow-color: var(--dropdown-arrow-color);
 }
 
 html {
