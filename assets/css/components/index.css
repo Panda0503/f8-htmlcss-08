@@ -715,6 +715,11 @@
 .form__group {
   margin-top: 30px;
 }
+@media (max-width: 767.98px) {
+  .form__group {
+    margin-top: 20px;
+  }
+}
 .form__group-inline {
   display: flex;
   align-items: center;
@@ -754,7 +759,7 @@
   line-height: 144.444%;
 }
 .form__input::placeholder {
-  color: #d2d1d6;
+  color: var(--form-placeholder-color);
 }
 .form__input-icon {
   margin-left: 12px;
