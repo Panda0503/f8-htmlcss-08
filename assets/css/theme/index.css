@@ -64,6 +64,8 @@ html.dark {
 }
 html.dark {
   --search-bar-bg: #171c28;
+  --review-card-bg: #171c28;
+  --text-content-hr-bg: #3e4043;
 }
 
 html {
@@ -139,6 +141,14 @@ html {
 html {
   --search-bar-bg: #fff;
   --review-card-bg: #fafafd;
+}
+@media (max-width: 767.98px) {
+  html {
+    --review-card-bg: #fff;
+  }
+}
+html {
+  --text-content-hr-bg: #ebebeb;
 }
 
 /*# sourceMappingURL=index.css.map */
