@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="">
+<html lang="en" class="dark">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -440,12 +440,12 @@
             <div class="model__overlay js-toggle" toggle-target="#delete-confirm"></div>
         </div>
 
-        <!-- Model: add new shopping address -->
-        <div id="add-new-address" class="model hide" style="--content-width: 650px">
+        <!-- Model: add new shipping address -->
+        <div id="add-new-address" class="model show" style="--content-width: 650px">
             <div class="model__content">
-                <h2 class="model__heading">Add new shopping address</h2>
-                <div class="model__body">
-                    <form action="" class="form">
+                <form action="" class="form">
+                    <h2 class="model__heading">Add new shipping address</h2>
+                    <div class="model__body">
                         <div class="form__row">
                             <!-- Name -->
                             <div class="form__group">
@@ -475,11 +475,11 @@
                                         placeholder="Phone"
                                         class="form__input"
                                         required
-                                        minlength="11"
+                                        minlength="10"
                                     />
                                     <img src="./assets/icons/form-error.svg" alt="" class="form__input-icon-error" />
                                 </div>
-                                <p class="form__error">Phone must be at least 11 characters.</p>
+                                <p class="form__error">Phone must be at least 10 characters.</p>
                             </div>
                         </div>
                         <!-- Address -->
@@ -518,19 +518,19 @@
                                 <span class="form__checkbox-label">Set as default address</span>
                             </label>
                         </div>
-                    </form>
-                </div>
-                <div class="model__bottom">
-                    <button class="btn btn--small btn--text model__btn js-toggle" toggle-target="#add-new-address">
-                        Cancel
-                    </button>
-                    <button
-                        class="btn btn--small btn--primary model__btn btn-no-margin js-toggle"
-                        toggle-target="#add-new-address"
-                    >
-                        Create
-                    </button>
-                </div>
+                    </div>
+                    <div class="model__bottom">
+                        <button class="btn btn--small btn--text model__btn js-toggle" toggle-target="#add-new-address">
+                            Cancel
+                        </button>
+                        <button
+                            class="btn btn--small btn--primary model__btn btn-no-margin js-toggle"
+                            toggle-target="#add-new-address"
+                        >
+                            Create
+                        </button>
+                    </div>
+                </form>
             </div>
             <div class="model__overlay"></div>
         </div>
