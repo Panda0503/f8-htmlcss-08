@@ -506,6 +506,7 @@
                                     name=""
                                     placeholder="City/District/Town"
                                     id="city"
+                                    readonly
                                     class="form__input js-toggle"
                                     toggle-target="#city-dialog"
                                 />
@@ -550,7 +551,12 @@
                         <button class="btn btn--small btn--text model__btn js-toggle" toggle-target="#add-new-address">
                             Cancel
                         </button>
-                        <button class="btn btn--small btn--primary model__btn btn-no-margin">Create</button>
+                        <button
+                            class="btn btn--small btn--primary model__btn btn-no-margin js-toggle"
+                            toggle-target="#add-new-address"
+                        >
+                            Create
+                        </button>
                     </div>
                 </form>
             </div>
