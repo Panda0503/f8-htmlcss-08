@@ -706,7 +706,7 @@
   align-items: center;
   padding: 0 12px;
   border-radius: 10px;
-  border: 1.5px solid #d2d1d6;
+  border: 1px solid #d2d1d6;
 }
 .form__text-area:focus-within, .form__text-input:focus-within {
   border-color: #77dea6;
@@ -906,7 +906,7 @@
   width: 19px;
   height: 19px;
   border-radius: 5px;
-  border: 1.5px solid #9e9da8;
+  border: 1px solid #9e9da8;
 }
 .form__checkbox:has(:checked)::before {
   border-color: #ffb700;
@@ -1197,7 +1197,7 @@
 .text-content hr {
   margin: 40px 0;
   border: none;
-  height: 1.5px;
+  height: 1px;
   background: var(--text-content-hr-bg);
 }
 
