@@ -81,6 +81,12 @@ html.dark {
   --checkout-payment-item-details: #fff;
   --dialog-bg: #2f3441;
   --dialog-shadow: rgba(23, 28, 40, 0.4);
+  --profile-sidebar-bg: #171c28;
+  --profile-sidebar-shadow: rgba(23, 28, 40, 0.2);
+  --profile-sidebar-link-hover: #292e39;
+  --account-info-bg: #292e39;
+  --account-info-icon-bg: #171c28;
+  --separate-color: #292e39;
 }
 
 html {
@@ -179,6 +185,12 @@ html {
   --checkout-payment-item-details: #0071dc;
   --dialog-bg: #fff;
   --dialog-shadow: rgba(237, 237, 246, 0.2);
+  --profile-sidebar-bg: #fff;
+  --profile-sidebar-shadow: rgba(237, 237, 246, 0.2);
+  --profile-sidebar-link-hover: #ebebeb;
+  --account-info-bg: #f6f6f6;
+  --account-info-icon-bg: #fff;
+  --separate-color: #d2d1d6;
 }
 
 /*# sourceMappingURL=index.css.map */
